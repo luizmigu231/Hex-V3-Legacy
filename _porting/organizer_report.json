@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-11-21T14:39:31-03:00",
+  "source": "/storage/emulated/0/.FNF/HexV3",
+  "output": "/storage/emulated/0/.FNF/HexV3Legacy",
+  "components": {
+    "hex": {
+      "root": "/storage/emulated/0/.FNF/HexV3/hex",
+      "files": 1379
+    },
+    "modchart-engine": {
+      "root": "/storage/emulated/0/.FNF/HexV3/modchart-engine",
+      "files": 11
+    }
+  },
+  "legacy_layout": [
+    "meta.json",
+    "data/characters",
+    "data/stages",
+    "songs",
+    "images",
+    "music",
+    "sounds",
+    "videos",
+    "shaders",
+    "fonts"
+  ],
+  "counts": {
+    "planned_operations": 1426,
+    "copied": 533,
+    "preserved_existing": 326,
+    "astc_decoded_to_png": 567,
+    "failed": 0,
+    "astc_pending": 0,
+    "hxc_sources_preserved": 39,
+    "cppia_sources_preserved": 2,
+    "song_json_sources_staged": 60,
+    "stage_conversion_warnings": 0,
+    "stale_astc_removed_from_output": 6
+  },
+  "notes": [
+    "A pasta gerada é a raiz do mod. Coloque-a dentro de content/ no Legacy.",
+    "JSONs de personagens V-Slice foram copiados para data/characters; o parser do Legacy detecta o campo version.",
+    "Stages V-Slice foram convertidos para StageFile em data/stages.",
+    "HXC/CPPIA não foram renomeados para HX/HScript: foram preservados em _porting/source para reescrita/adaptação.",
+    "Charts/metadata V-Slice, weeks, playable characters, notestyles e diálogos originais foram preservados em _porting/source para adaptação posterior.",
+    "Nenhum arquivo ASTC é copiado como ASTC para o pacote ativo. Texturas sem decoder ficam listadas em pending_assets.csv."
+  ]
+}

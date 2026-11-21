@@ -1,0 +1,200 @@
+Hex V3 -> Impostor Legacy converter 0.1.3
+Saída de imagens: PNG e sidecars de atlas; nenhum arquivo ASTC é gerado.
+ASTC só é aceito como entrada e deve ser decodificado para PNG.
+
+Stages convertidos: 28
+Personagens convertidos: 48
+Arquivos de assets copiados: 276
+Assets não encontrados: 0
+Assets ASTC encontrados: 166
+Assets ASTC convertidos: 166
+Assets que precisam de conversão: 0
+Avisos: 104
+
+Stages:
+  - basketcourt
+  - bombsncombs
+  - headbasher
+  - iris_void
+  - lan
+  - retro
+  - rightpace
+  - streetside
+  - train
+  - train-erect
+  - windows
+  - xstage
+  - xstage_glitcher
+  - xstage_glitcher_new
+  - xstage_new
+  - xstage_night
+  - xstage_night_new
+  - xstage_sunset
+  - xstage_sunset_new
+  - xwstage
+  - xwstage_detected
+  - xwstage_detected_new
+  - xwstage_detected_rmx
+  - xwstage_new
+  - xwstagedef
+  - xwstagedef_new
+  - xwstagelcd
+  - xwstagelcd_new
+
+Personagens:
+  - bf-hb-1
+  - bf-hb-1-w
+  - bf-hb-2
+  - bf-hb-3
+  - bf-hexware
+  - bf-jumpin1
+  - bf-jumpin2
+  - bf-jumpin3
+  - bf-jumpin4
+  - bf-old
+  - bf-street
+  - bfbit
+  - carol
+  - coda
+  - cyrix
+  - gf-old
+  - gf-street
+  - glitcherhex
+  - hex
+  - hex-bombs
+  - hex-hb-1
+  - hex-hb-1-w
+  - hex-hb-2
+  - hex-hb-3
+  - hex-hexware
+  - hex-jumpin1
+  - hex-jumpin2
+  - hex-jumpin3
+  - hex-jumpin4
+  - hex-lan
+  - hex-rightpace
+  - hex-rightpace-happy
+  - hexbit
+  - hexretro
+  - hexretro2
+  - hexretrotrans
+  - iris
+  - rich
+  - slasher
+  - slasher-2
+  - slasher-3
+  - slasher-w
+  - static
+  - whitty
+  - wirebf
+  - wirehex
+  - wkhex-detected
+  - wkhex-detected-wire
+
+Avisos:
+  - Stage basketcourt, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage basketcourt, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage lan, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage rightpace, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage rightpace, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage rightpace, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage rightpace, prop richard: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage streetside, prop stageFront: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage train, prop guy1: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage train, prop guy2: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage train-erect, prop guy1: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage train-erect, prop guy2: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstage, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstage, prop crowd_dark: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstage_detected, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstage_detected_new, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected_new, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected_new, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected_new, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstage_detected_rmx, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected_rmx, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected_rmx, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_detected_rmx, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstage_new, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_new, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_new, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstage_new, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstage_new, prop crowd_dark: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagedef, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagedef, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagedef, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagedef, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagedef_new, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagedef_new, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagedef_new, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagedef_new, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagelcd, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagelcd, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagelcd, prop lights: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd, prop lights2: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd, prop crowd2: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd, prop lights3: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd, prop crowd3: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd_new, personagem bf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagelcd_new, personagem dad: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagelcd_new, personagem gf: campo 'scale' ainda não possui equivalente direto no StageFile do Legacy.
+  - Stage xwstagelcd_new, prop lights: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd_new, prop crowd: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd_new, prop lights2: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd_new, prop crowd2: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd_new, prop lights3: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Stage xwstagelcd_new, prop crowd3: danceEvery foi preservado como dance_every, mas o Stage do Legacy não executa esse campo automaticamente.
+  - Personagem bf-jumpin3: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem bf-jumpin4: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem bf-old: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem bf-street: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem bfbit: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem bfbit: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem carol: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem carol: campo V-Slice 'applyStageMatrix' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem carol: campo V-Slice 'atlasSettings' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem carol: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem coda: campo V-Slice 'atlasSettings' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem cyrix: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem cyrix: campo V-Slice 'applyStageMatrix' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem cyrix: campo V-Slice 'atlasSettings' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem cyrix: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem gf-old: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem gf-street: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem hex-bombs: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hex-bombs: campo V-Slice 'applyStageMatrix' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hex-bombs: campo V-Slice 'atlasSettings' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hex-bombs: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem hex-jumpin3: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hex-jumpin4: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hex-lan: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hex-lan: campo V-Slice 'applyStageMatrix' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hex-lan: campo V-Slice 'atlasSettings' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hex-lan: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem hexretro: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hexretro: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem hexretro2: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hexretro2: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem hexretrotrans: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem hexretrotrans: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem rich: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem rich: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem static: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem static: campo V-Slice 'applyStageMatrix' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem static: campo V-Slice 'atlasSettings' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem static: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem whitty: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem whitty: campo V-Slice 'applyStageMatrix' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem whitty: campo V-Slice 'atlasSettings' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+  - Personagem whitty: startingAnimation foi mantido, mas o CharacterParser do Legacy não o aplica diretamente.
+  - Personagem wirebf: campo V-Slice 'renderType' foi mantido no JSON, mas o parser do Legacy não tem mapeamento confirmado para ele.
+
+Fora do escopo desta versão: scripts .hxc, CPPIA, charts, eventos e note styles.

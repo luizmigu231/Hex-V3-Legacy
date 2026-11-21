@@ -1,0 +1,285 @@
+{
+  "defaultZoom": 0.82,
+  "isPixelStage": false,
+  "boyfriend": [
+    1300.0,
+    755.0
+  ],
+  "opponent": [
+    650.0,
+    760.0
+  ],
+  "girlfriend": [
+    950.0,
+    690.0
+  ],
+  "stageObjects": [
+    {
+      "id": "hexBack",
+      "asset": "gameplay/stages/xwstagelcd/au_lcd_back_1",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "hexFront",
+      "asset": "gameplay/stages/xwstagelcd_new/au_lcd_front_1",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "lights",
+      "asset": "gameplay/stages/xwstagelcd/au_lcd_lights_1",
+      "position": [
+        -25.0,
+        -8.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 2
+    },
+    {
+      "id": "crowd",
+      "asset": "gameplay/stages/xwstagelcd_new/au_lcd_audience_1",
+      "position": [
+        42.0,
+        -150.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 25,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 2
+    },
+    {
+      "id": "hexBack2",
+      "asset": "gameplay/stages/xwstagelcd/au_lcd_back_2",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "hexFront2",
+      "asset": "gameplay/stages/xwstagelcd_new/au_lcd_front_2",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "lights2",
+      "asset": "gameplay/stages/xwstagelcd/au_lcd_lights_2",
+      "position": [
+        -25.0,
+        -8.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 1
+    },
+    {
+      "id": "crowd2",
+      "asset": "gameplay/stages/xwstagelcd_new/au_lcd_audience_2",
+      "position": [
+        42.0,
+        -150.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 25,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 1
+    },
+    {
+      "id": "hexBack3",
+      "asset": "gameplay/stages/xwstagelcd/au_lcd_back_3",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "hexFront3",
+      "asset": "gameplay/stages/xwstagelcd_new/au_lcd_front_3",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "lights3",
+      "asset": "gameplay/stages/xwstagelcd/au_lcd_lights_3",
+      "position": [
+        -25.0,
+        -8.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 4
+    },
+    {
+      "id": "crowd3",
+      "asset": "gameplay/stages/xwstagelcd_new/au_lcd_audience_3",
+      "position": [
+        42.0,
+        -150.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 25,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 4
+    }
+  ],
+  "bfZIndex": 24,
+  "camera_boyfriend": [
+    -200.0,
+    -50.0
+  ],
+  "dadZIndex": 24,
+  "camera_opponent": [
+    200.0,
+    -45.0
+  ],
+  "gfZIndex": 22,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

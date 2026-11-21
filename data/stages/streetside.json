@@ -1,0 +1,74 @@
+{
+  "defaultZoom": 0.9,
+  "isPixelStage": false,
+  "boyfriend": [
+    1200.0,
+    700.0
+  ],
+  "opponent": [
+    200.0,
+    700.0
+  ],
+  "girlfriend": [
+    660.0,
+    575.0
+  ],
+  "stageObjects": [
+    {
+      "id": "stageBack",
+      "asset": "gameplay/stages/streetside/Tangerine_BG",
+      "position": [
+        -320.0,
+        -195.0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "stageFront",
+      "asset": "gameplay/stages/streetside/Tangerine_Audience",
+      "position": [
+        -320.0,
+        -240.0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 1000,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "audienceLoop"
+        }
+      ],
+      "dance_every": 2
+    }
+  ],
+  "bfZIndex": 300,
+  "camera_boyfriend": [
+    -350.0,
+    -215.0
+  ],
+  "dadZIndex": 200,
+  "camera_opponent": [
+    300.0,
+    -100.0
+  ],
+  "gfZIndex": 100,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "HexV3Legacy",
+  "description": "Hex V3 port for VS Impostor: Legacy. Converted assets and data; source scripts are staged in _porting for HScript porting.",
+  "iconFile": "hexv3_icon"
+}

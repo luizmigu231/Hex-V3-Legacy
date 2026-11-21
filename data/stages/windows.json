@@ -1,0 +1,124 @@
+{
+  "defaultZoom": 1.08,
+  "isPixelStage": false,
+  "boyfriend": [
+    900.0,
+    650.0
+  ],
+  "opponent": [
+    350.0,
+    650.0
+  ],
+  "girlfriend": [
+    -90000.0,
+    -90000.0
+  ],
+  "stageObjects": [
+    {
+      "id": "bg",
+      "asset": "gameplay/stages/windows/BG_Hexware",
+      "position": [
+        0.0,
+        25.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "cursor",
+      "asset": "gameplay/stages/windows/cursor",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 500
+    },
+    {
+      "id": "notepad",
+      "asset": "gameplay/stages/windows/windowNotepad",
+      "position": [
+        135.0,
+        200.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 12,
+      "animations": [
+        {
+          "anim": "open",
+          "name": "windowNotepadOpening",
+          "fps": 24
+        },
+        {
+          "anim": "close",
+          "name": "windowNotepadClosing",
+          "fps": 24
+        }
+      ]
+    },
+    {
+      "id": "taskbar",
+      "asset": "gameplay/stages/windows/taskbarLayer",
+      "position": [
+        155.0,
+        715.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 15,
+      "animations": [
+        {
+          "anim": "1",
+          "name": "1",
+          "fps": 1
+        },
+        {
+          "anim": "2",
+          "name": "2",
+          "fps": 1
+        },
+        {
+          "anim": "3",
+          "name": "3",
+          "fps": 1
+        },
+        {
+          "anim": "4",
+          "name": "4",
+          "fps": 1
+        },
+        {
+          "anim": "5",
+          "name": "5",
+          "fps": 1
+        }
+      ]
+    }
+  ],
+  "bfZIndex": 300,
+  "camera_boyfriend": [
+    0.0,
+    0.0
+  ],
+  "dadZIndex": 200,
+  "camera_opponent": [
+    300.0,
+    -100.0
+  ],
+  "gfZIndex": 100,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "defaultZoom": 1.05,
+  "isPixelStage": false,
+  "boyfriend": [
+    710.0,
+    900.0
+  ],
+  "opponent": [
+    200.0,
+    900.0
+  ],
+  "girlfriend": [
+    -90000.0,
+    -90000.0
+  ],
+  "stageObjects": [
+    {
+      "id": "bg",
+      "asset": "gameplay/stages/retro/bg",
+      "position": [
+        -250.0,
+        150.0
+      ],
+      "scale": [
+        0.75,
+        0.75
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 10
+    }
+  ],
+  "bfZIndex": 300,
+  "camera_boyfriend": [
+    -135.0,
+    -50.0
+  ],
+  "dadZIndex": 200,
+  "camera_opponent": [
+    170.0,
+    -90.0
+  ],
+  "gfZIndex": 100,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

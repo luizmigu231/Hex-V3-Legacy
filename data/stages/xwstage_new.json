@@ -1,0 +1,203 @@
+{
+  "defaultZoom": 0.87,
+  "isPixelStage": false,
+  "boyfriend": [
+    1300.0,
+    775.0
+  ],
+  "opponent": [
+    650.0,
+    795.0
+  ],
+  "girlfriend": [
+    950.0,
+    690.0
+  ],
+  "stageObjects": [
+    {
+      "id": "hexBack",
+      "asset": "gameplay/stages/xwstage_new/hexBack",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "hexFront",
+      "asset": "gameplay/stages/xwstage_new/hexFront",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "topOverlay",
+      "asset": "gameplay/stages/xwstage_new/topOverlay",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 30
+    },
+    {
+      "id": "breakBack",
+      "asset": "gameplay/stages/xwstage_new/breakBack",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 11
+    },
+    {
+      "id": "breakFront",
+      "asset": "gameplay/stages/xwstage_new/breakFront",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 21
+    },
+    {
+      "id": "breakOverlay",
+      "asset": "gameplay/stages/xwstage_new/breakOverlay",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 31
+    },
+    {
+      "id": "breakSpotlight",
+      "asset": "gameplay/stages/xwstage/breakSpotlight",
+      "position": [
+        -24.0,
+        24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "alpha": 0,
+      "zIndex": 24
+    },
+    {
+      "id": "crowd",
+      "asset": "gameplay/stages/xwstage_new/crowd",
+      "position": [
+        42.0,
+        -150.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 25,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 4
+    },
+    {
+      "id": "crowd_dark",
+      "asset": "gameplay/stages/xwstage_new/crowd_dark",
+      "position": [
+        42.0,
+        -150.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 25,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 4
+    }
+  ],
+  "bfZIndex": 24,
+  "camera_boyfriend": [
+    -185.0,
+    -150.0
+  ],
+  "dadZIndex": 24,
+  "camera_opponent": [
+    200.0,
+    -100.0
+  ],
+  "gfZIndex": 22,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

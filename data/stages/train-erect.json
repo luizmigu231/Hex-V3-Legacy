@@ -1,0 +1,109 @@
+{
+  "defaultZoom": 0.98,
+  "isPixelStage": false,
+  "boyfriend": [
+    690.0,
+    915.0
+  ],
+  "opponent": [
+    280.0,
+    1000.0
+  ],
+  "girlfriend": [
+    -90000.0,
+    -90000.0
+  ],
+  "stageObjects": [
+    {
+      "id": "bg",
+      "asset": "gameplay/stages/train/erect/BIT_BG",
+      "position": [
+        -250.0,
+        150.0
+      ],
+      "scale": [
+        0.75,
+        0.75
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "guy1",
+      "asset": "gameplay/stages/train/erect/BIT_GUY1",
+      "position": [
+        -180.0,
+        365.0
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 20,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "guy1_idle",
+          "fps": 24
+        }
+      ],
+      "dance_every": 8
+    },
+    {
+      "id": "guy2",
+      "asset": "gameplay/stages/train/erect/BIT_GUY2",
+      "position": [
+        900.0,
+        590.0
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 20,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "guy2_idle",
+          "fps": 24
+        }
+      ],
+      "dance_every": 8
+    },
+    {
+      "id": "bg",
+      "asset": "gameplay/stages/train/erect/BIT_BG_FRONT",
+      "position": [
+        -250.0,
+        150.0
+      ],
+      "scale": [
+        0.75,
+        0.75
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 40
+    }
+  ],
+  "bfZIndex": 300,
+  "camera_boyfriend": [
+    -160.0,
+    -80.0
+  ],
+  "dadZIndex": 200,
+  "camera_opponent": [
+    145.0,
+    -95.0
+  ],
+  "gfZIndex": 100,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

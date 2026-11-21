@@ -1,0 +1,109 @@
+{
+  "defaultZoom": 0.98,
+  "isPixelStage": false,
+  "boyfriend": [
+    30.0,
+    200.0
+  ],
+  "opponent": [
+    0.0,
+    200.0
+  ],
+  "girlfriend": [
+    0.0,
+    0.0
+  ],
+  "stageObjects": [
+    {
+      "id": "swirl",
+      "asset": "gameplay/stages/rightpace/white-man",
+      "position": [
+        -606.3,
+        -514.1
+      ],
+      "scale": [
+        1.0204,
+        1.0204
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 9
+    },
+    {
+      "id": "bg",
+      "asset": "gameplay/stages/rightpace/RightPaceBG2",
+      "position": [
+        -606.3,
+        -514.1
+      ],
+      "scale": [
+        1.0204,
+        1.0204
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "coolerBG",
+      "asset": "gameplay/stages/rightpace/RightPaceBG9",
+      "position": [
+        -606.3,
+        -514.1
+      ],
+      "scale": [
+        1.0204,
+        1.0204
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "richard",
+      "asset": "gameplay/stages/rightpace/RightPaceRichard",
+      "position": [
+        -278.3,
+        -177.0
+      ],
+      "scale": [
+        1.0204,
+        1.0204
+      ],
+      "scrollFactor": [
+        1.0,
+        1.0
+      ],
+      "zIndex": 10,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "richardLoop",
+          "fps": 24
+        }
+      ],
+      "dance_every": 4
+    }
+  ],
+  "bfZIndex": 24,
+  "camera_boyfriend": [
+    -5.0,
+    -115.0
+  ],
+  "dadZIndex": 24,
+  "camera_opponent": [
+    0.0,
+    -200.0
+  ],
+  "gfZIndex": 22,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

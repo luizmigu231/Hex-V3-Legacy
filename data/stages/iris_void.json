@@ -1,0 +1,98 @@
+{
+  "defaultZoom": 0.9,
+  "isPixelStage": false,
+  "boyfriend": [
+    -9000.0,
+    -9000.0
+  ],
+  "opponent": [
+    0.0,
+    0.0
+  ],
+  "girlfriend": [
+    -9000.0,
+    -9000.0
+  ],
+  "stageObjects": [
+    {
+      "id": "text1",
+      "asset": "gameplay/stages/iris_void/text1",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.75,
+        0.75
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "text2",
+      "asset": "gameplay/stages/iris_void/text2",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.75,
+        0.75
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "text3",
+      "asset": "gameplay/stages/iris_void/text3",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "text4",
+      "asset": "gameplay/stages/iris_void/text4",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "text5",
+      "asset": "gameplay/stages/iris_void/text5",
+      "position": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5
+      ],
+      "zIndex": 20
+    }
+  ],
+  "bfZIndex": 24,
+  "camera_boyfriend": [
+    9000.0,
+    9000.0
+  ],
+  "dadZIndex": 24,
+  "camera_opponent": [
+    0.0,
+    0.0
+  ],
+  "gfZIndex": 22,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

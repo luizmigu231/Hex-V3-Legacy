@@ -1,0 +1,67 @@
+{
+  "defaultZoom": 0.9,
+  "isPixelStage": false,
+  "boyfriend": [
+    989.5,
+    885.0
+  ],
+  "opponent": [
+    335.0,
+    885.0
+  ],
+  "girlfriend": [
+    751.5,
+    787.0
+  ],
+  "stageObjects": [
+    {
+      "id": "stageBack",
+      "asset": "gameplay/stages/xstage_new/weekx_back",
+      "position": [
+        -600.0,
+        -200.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "stageFront",
+      "asset": "gameplay/stages/xstage_new/weekx_front",
+      "position": [
+        -650.0,
+        600.0
+      ],
+      "scale": [
+        1.1,
+        1.1
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20
+    }
+  ],
+  "bfZIndex": 300,
+  "camera_boyfriend": [
+    -100.0,
+    -100.0
+  ],
+  "dadZIndex": 200,
+  "camera_opponent": [
+    150.0,
+    -100.0
+  ],
+  "gfZIndex": 100,
+  "camera_girlfriend": [
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "defaultZoom": 0.85,
+  "isPixelStage": false,
+  "boyfriend": [
+    1300.0,
+    760.0
+  ],
+  "opponent": [
+    650.0,
+    700.0
+  ],
+  "girlfriend": [
+    950.0,
+    690.0
+  ],
+  "stageObjects": [
+    {
+      "id": "hexBack",
+      "asset": "gameplay/stages/xwstagedef_new/hexBack_noVis",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 10
+    },
+    {
+      "id": "hexFront",
+      "asset": "gameplay/stages/xwstage_new/hexFront",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 20
+    },
+    {
+      "id": "crowd",
+      "asset": "gameplay/stages/xwstagedef_new/javaCrowd",
+      "position": [
+        42.0,
+        -140.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 25,
+      "animations": [
+        {
+          "anim": "idle",
+          "name": "Symbol",
+          "fps": 24
+        }
+      ],
+      "dance_every": 4
+    },
+    {
+      "id": "topOverlay",
+      "asset": "gameplay/stages/xwstage_new/topOverlay",
+      "position": [
+        -24.0,
+        -24.0
+      ],
+      "scale": [
+        1.5,
+        1.5
+      ],
+      "scrollFactor": [
+        0.9,
+        0.9
+      ],
+      "zIndex": 30
+    }
+  ],
+  "bfZIndex": 24,
+  "camera_boyfriend": [
+    -150.0,
+    -100.0
+  ],
+  "dadZIndex": 24,
+  "camera_opponent": [
+    200.0,
+    -50.0
+  ],
+  "gfZIndex": 22,
+  "camera_girlfriend": [
+    85.0,
+    -100.0
+  ]
+}
