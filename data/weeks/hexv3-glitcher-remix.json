@@ -1,0 +1,34 @@
+{
+  "songs": [
+    [
+      "glitcher-remix",
+      "wkhex-detected",
+      [
+        74,
+        142,
+        220
+      ]
+    ]
+  ],
+  "weekCharacters": [
+    "wkhex-detected",
+    "bf-old",
+    "gf-old"
+  ],
+  "weekBackground": "stage",
+  "weekBefore": "",
+  "storyName": "Hex V3",
+  "weekName": "Glitcher (Remix)",
+  "freeplayColor": [
+    74,
+    142,
+    220
+  ],
+  "startUnlocked": true,
+  "completionExcluded": true,
+  "hiddenUntilUnlocked": false,
+  "hideStoryMode": true,
+  "hideFreeplay": false,
+  "difficulties": "",
+  "section": "hexv3"
+}

@@ -1,0 +1,34 @@
+{
+  "songs": [
+    [
+      "bit",
+      "hex",
+      [
+        74,
+        142,
+        220
+      ]
+    ]
+  ],
+  "weekCharacters": [
+    "hexbit",
+    "bfbit",
+    "gf"
+  ],
+  "weekBackground": "stage",
+  "weekBefore": "",
+  "storyName": "Hex V3",
+  "weekName": "B.I.T.",
+  "freeplayColor": [
+    74,
+    142,
+    220
+  ],
+  "startUnlocked": true,
+  "completionExcluded": true,
+  "hiddenUntilUnlocked": false,
+  "hideStoryMode": true,
+  "hideFreeplay": false,
+  "difficulties": "",
+  "section": "hexv3"
+}

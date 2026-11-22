@@ -1,0 +1,34 @@
+{
+  "songs": [
+    [
+      "dunk",
+      "hex",
+      [
+        74,
+        142,
+        220
+      ]
+    ]
+  ],
+  "weekCharacters": [
+    "hex",
+    "bf",
+    "gf"
+  ],
+  "weekBackground": "stage",
+  "weekBefore": "",
+  "storyName": "Hex V3",
+  "weekName": "Dunk",
+  "freeplayColor": [
+    74,
+    142,
+    220
+  ],
+  "startUnlocked": true,
+  "completionExcluded": true,
+  "hiddenUntilUnlocked": false,
+  "hideStoryMode": true,
+  "hideFreeplay": false,
+  "difficulties": "",
+  "section": "hexv3"
+}

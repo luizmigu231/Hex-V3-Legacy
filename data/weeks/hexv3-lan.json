@@ -1,0 +1,34 @@
+{
+  "songs": [
+    [
+      "lan",
+      "cyrix",
+      [
+        74,
+        142,
+        220
+      ]
+    ]
+  ],
+  "weekCharacters": [
+    "cyrix",
+    "hex-lan",
+    "static"
+  ],
+  "weekBackground": "stage",
+  "weekBefore": "",
+  "storyName": "Hex V3",
+  "weekName": "LAN",
+  "freeplayColor": [
+    74,
+    142,
+    220
+  ],
+  "startUnlocked": true,
+  "completionExcluded": true,
+  "hiddenUntilUnlocked": false,
+  "hideStoryMode": true,
+  "hideFreeplay": false,
+  "difficulties": "",
+  "section": "hexv3"
+}

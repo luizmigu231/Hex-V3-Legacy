@@ -1,0 +1,34 @@
+{
+  "songs": [
+    [
+      "tangerine",
+      "coda",
+      [
+        74,
+        142,
+        220
+      ]
+    ]
+  ],
+  "weekCharacters": [
+    "coda",
+    "bf-street",
+    "gf-street"
+  ],
+  "weekBackground": "stage",
+  "weekBefore": "",
+  "storyName": "Hex V3",
+  "weekName": "Tangerine",
+  "freeplayColor": [
+    74,
+    142,
+    220
+  ],
+  "startUnlocked": true,
+  "completionExcluded": true,
+  "hiddenUntilUnlocked": false,
+  "hideStoryMode": true,
+  "hideFreeplay": false,
+  "difficulties": "",
+  "section": "hexv3"
+}
